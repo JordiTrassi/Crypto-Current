@@ -1,2 +1,2 @@
-# Cripto-Current
+# Crypto-Current
 App created with Vite.
