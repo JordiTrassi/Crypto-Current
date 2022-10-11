@@ -1,7 +1,18 @@
 import styled from '@emotion/styled';
 
 const Label = styled.label`
-    color: #FFF
+    color: #FFF;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+`
+const Select = styled.select`
+    width: 100%;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 10px;
 `
 
 export const useSelectCoins = (label, opciones) => {
@@ -9,7 +20,7 @@ export const useSelectCoins = (label, opciones) => {
     const SelectCoins = () => (
         <>
             <Label>{label}</Label>
-            <select>
+            <Select>
                 <option value="">Seleccione</option>
 
                 {opciones.map(opcion => (
@@ -18,7 +29,7 @@ export const useSelectCoins = (label, opciones) => {
                         value={opcion.id}
                     >{opcion.name}</option>
                 ))}
-            </select>
+            </Select>
         </>
     )
     return [SelectCoins]
