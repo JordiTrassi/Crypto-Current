@@ -11,13 +11,13 @@ const Contenedor = styled.div`
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
-`
+`;
 const Imagen = styled.img`
   max-width: 400px;
   width: 80%;
   margin: 100px auto 0 auto;
   display: block;
-`
+`;
 
 const Heading = styled.h1`
   font-family: 'Lato', sans-serif;
@@ -37,10 +37,9 @@ const Heading = styled.h1`
     margin: 10px auto 0 auto;
   }
 
-`
+`;
 
 export const App = () => {
-  
   return (
     <Contenedor>
       <Imagen
@@ -53,7 +52,5 @@ export const App = () => {
       </div>
 
     </Contenedor>
-  )
+  );
 }
-
-
