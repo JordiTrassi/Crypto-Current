@@ -3,8 +3,8 @@
 <p>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /> 
 <img src="https://vectorwiki.com/images/bjlcA__vitejs.svg" alt="vitejs" width="40" height="40" />
-<img src="https://www.styled-components.com/atom.png" alt="styled components" width="40" height="40" />
+<img src="https://miro.medium.com/max/480/1*Iohnw2aOQ5EBghVoqKA7VA.png" alt="styled components" width="40" height="40" />
 </p> 
 
 
-[Visit my App at Netlify!](https://)
+[Visit my App at Netlify!](https://trassi-crypto-current.netlify.app)
